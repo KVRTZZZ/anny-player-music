@@ -6,7 +6,7 @@ let musicas = [
     {titulo: 'doin', artista: 'Lana Del Rey'
     ,src: '../musicas/doin.mp3', img: '../images/gatinho.jpg'},
     {titulo: 'Born to die' , artista: 'Lana Del Rey'
-    ,src: 'musicas/die.mp3', img: '../images/gatinho-olho.jpg'}
+    ,src: '../musicas/die.mp3', img: '../images/gatinho-olho.jpg'}
 ];
 
 
