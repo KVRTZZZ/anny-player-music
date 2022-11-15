@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+.imagem-topo{
+    width: 150px;
+    border-radius: 8px ;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+.descricao {
+    height: 100px;
+}
+
+.barra {
+    border: 2px red solid;
+    width: 320px;
+    height: 15px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 6px;
+    width: 0;
+}
+
+.ponto {
+    border: 2px black solid;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: -5px;
+    background-color: black;
+}
+
+.tempo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.player {
+    margin-top: 12px;
+    width: 350px;
+    display:flex;
+    justify-content: space-around;
+}
+
+
+
+
+.botao-esquerdo {
+    height: 40px;
+    transition: transform .2s;
+}
+
+.botao-esquerdo:hover {
+    transform: scale(1.7);
+}
+
+.botao-direito {
+    height: 40px;
+    transition: transform .2s ease-in-out;
+}
+
+.botao-direito:hover{
+    transform: scale(1.7);
+}
+
+.botao-retomar {
+    height: 45px;
+    transition: transform .2s;
+}
+
+
+.botao-pause {
+    height: 45px;
+    display: none;
+    transition: transform .2s;
+}
