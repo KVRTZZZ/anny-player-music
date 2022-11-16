@@ -2,11 +2,11 @@
 
 let musicas = [
     {titulo: 'Summertime Sadness', artista: 'Lana Del Rey'
-    ,src: 'musicas/summertime.mp3', img: 'images/gatinho-livro.jpg'},
-    {titulo: 'doin', artista: 'Lana Del Rey'
-    ,src: 'musicas/doin.mp3', img: 'images/gatinho.jpg'},
+    ,src: './musicas/summertime.mp3', img: './images/gatinho-livro.jpg'},
+    {titulo: 'Doin Time', artista: 'Lana Del Rey'
+    ,src: './musicas/doin.mp3', img: './images/gatinho.jpg'},
     {titulo: 'Born to die' , artista: 'Lana Del Rey'
-    ,src: 'musicas/die.mp3', img: 'images/gatinho-olho.jpg'}
+    ,src: './musicas/die.mp3', img: './images/gatinho-olho.jpg'}
 ];
 
 
